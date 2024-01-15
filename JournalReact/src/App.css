@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: red;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+.globe {
+    width: 25px;
+    margin-right: 20px;
+    color: white;
+}
+
+.card {
+    padding: 20px 50px;
+    height: 250px;
+    display: flex;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card--image {
+    height: 90%;
+    min-width: 150px;
+    border-radius: 10px;
+    
+}
+
+.card--location {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 40px;
+    font-size: 0.7rem;
+}
+
+.card--location p a{
+    color: grey;
+    text-decoration: underline;
+}
+
+.card--info {
+    padding: 20px;
+}
+
+.card--info h1{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align: justify;
+}
